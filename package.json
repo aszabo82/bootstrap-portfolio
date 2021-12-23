@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Nucamp bootstrap Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aszabo82/bootstrap-portfolio.git"
+  },
+  "author": "Anthony Szabo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aszabo82/bootstrap-portfolio/issues"
+  },
+  "homepage": "https://github.com/aszabo82/bootstrap-portfolio#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
