@@ -10,7 +10,6 @@
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
     <!-- Additional CSS must be placed after bootstrap CSS -->
-    <link rel="stylesheet" href="css/styles.css" />
     <link
       rel="stylesheet"
       href="node_modules/font-awesome/css/font-awesome.min.cssgit "
@@ -19,11 +18,61 @@
       rel="stylesheet"
       href="node_modules/bootstrap-social/bootstrap-social.css"
     />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Document</title>
   </head>
   <body>
-    <h1>This the setup installing up date</h1>
-    <footer></footer>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+      <a class="navbar-brand" href="#"
+        ><img src="images/ladyc.png" width="150" alt="logo" loading="lazy"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Shop</a>
+          </li>
+        </ul>
+        <a class="btn btn-outline-light ml-auto" href="#" role="button"
+          >Contact</a
+        >
+      </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid text-light">
+      <div class="container">
+        <h1 class="display-4">Freshness</h1>
+        <p class="lead">We strive to provide you the best in ingredients.</p>
+        <a class="btn btn-lg btn-outline-light ml-auto" href="#" role="button"
+          >Find out more</a
+        >
+      </div>
+    </div>
+
+    <h1>Working on!</h1>
+
+    <footer id="footerbar">
+      <div class="container">this is a footer</div>
+    </footer>
     <!-- jquery must come first, then Popper.js, then the Bootstrap JavaScript plugins. -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>

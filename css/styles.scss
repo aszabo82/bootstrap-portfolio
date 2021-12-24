@@ -1,0 +1,16 @@
+$primary-color: #3a7ca5;
+$secondary-color: #16425b;
+
+.navbar {
+  background-color: $primary-color;
+}
+
+.jumbotron {
+  background: url("../images/bread.jpg") fixed center no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+#footerbar {
+  background-color: $primary-color;
+}

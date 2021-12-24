@@ -1,0 +1,10 @@
+.navbar {
+  background-color: #3a7ca5; }
+
+.jumbotron {
+  background: url("../images/bread.jpg") fixed center no-repeat;
+  background-size: cover;
+  min-height: 100vh; }
+
+#footerbar {
+  background-color: #3a7ca5; }
